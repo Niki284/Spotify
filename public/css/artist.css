@@ -1,0 +1,19 @@
+.contents {
+    min-width: auto;
+    max-width: max-content;
+}
+.artist {
+    display: flex;
+    justify-content: center;
+    
+}
+.artist__logo img{
+    height: 5rem;
+    width: 5rem;
+    border: 2px dashed green;
+    border-radius: 0.5rem;
+}
+.artist__name {
+    min-width: 10rem;
+    max-width: 20rem;
+}

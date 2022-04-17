@@ -1,0 +1,29 @@
+<blockquote class="navigatie-sub">
+    <ul class="navigatie-list">
+        <h3>Categories</h3>
+        {{#each navi}}
+            <li>
+                <a href="{{this.url}}">{{this.text}}</a>
+            </li>
+        {{/each}}
+        <blockquote class="contents">
+            <div class="block_1"> 
+                <div class="text_2p">
+                   <label for="message">Playlist </label> 
+                </div>
+                <form action="/postPlaylist" method="post" class="content_input">
+                    <div class="input">
+                        <input id="grocery" name="name" type="text"></div>
+                    <div class="button_div"><button  type="submit" id="add"><i>+</i></button></div>
+                </form>
+            </div>
+        </blockquote>
+    </ul>
+        
+     <div class="them">
+        <h3>Theme</h3>
+            <select id="theme--switcher">
+
+            </select>
+        </div>
+</blockquote>
